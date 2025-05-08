@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,7 +6,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
 <h2>Kiểm tra các cạnh của tam giác</h2>
     <form method="post">
         Nhập số nguyên a: <input type="text" name="a" required><br><br>
