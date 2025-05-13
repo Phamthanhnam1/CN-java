@@ -1,0 +1,30 @@
+<web-app xmlns="http://jakarta.ee/xml/ns/jakartaee"
+         version="5.0">
+
+    <servlet>
+        <servlet-name>ColorServlet</servlet-name>
+        <servlet-class>servlet.ColorServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ColorServlet</servlet-name>
+        <url-pattern>/color</url-pattern>
+    </servlet-mapping>
+
+    <filter>
+        <filter-name>ColorFilter</filter-name>
+        <filter-class>filter.ColorFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>ColorFilter</filter-name>
+        <url-pattern>/color</url-pattern>
+    </filter-mapping>
+
+    <listener>
+        <listener-class>listener.RequestListener</listener-class>
+    </listener>
+
+    <welcome-file-list>
+        <welcome-file>color.jsp</welcome-file>
+    </welcome-file-list>
+
+</web-app>
