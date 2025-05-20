@@ -1,0 +1,8 @@
+com\example\demo\repository\package-info.class
+com\example\demo\repository\StudentRepository.class
+com\example\demo\model\Student.class
+com\example\demo\controller\package-info.class
+com\example\demo\model\package-info.class
+com\example\demo\StudentManagementApplication.class
+com\example\demo\controller\StudentController.class
+com\example\demo\ServletInitializer.class
